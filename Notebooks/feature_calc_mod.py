@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import warnings
 
 
 def calc_dist_feature_modif_no_c_id(PDBFile:str, map_df:pd.DataFrame(), pdb_id:str, one_mod_df:str,
