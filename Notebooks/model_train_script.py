@@ -218,11 +218,11 @@ for folder in tqdm(os.listdir(path_to_frames_location)):
 feat_df = pd.concat(feat_df)
 
     
-if len(bad) != 0:
-    raise ValueError("Smth went wrong with folders:", bad)
+#if len(bad) != 0:
+#    raise ValueError("Smth went wrong with folders:", bad)
     
-else:
-    print("Features were calculated")
+#else:
+#    print("Features were calculated")
     
 
 #features split
