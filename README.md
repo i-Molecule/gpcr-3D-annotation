@@ -26,7 +26,7 @@ jupyter nbextension enable --py widgetsnbextension
 or create an environment from .yml file:
 
 ```bash
-conda env create -f environment.yml
+conda env create -f gpcr_3d_conf.yml
 ```
 
 ## Usage
