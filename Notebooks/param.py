@@ -2,7 +2,7 @@ import os,sys
 
 his_types = ["HSD", "HSE", "HSP"]
 
-path_to_GPCRapa = "/media/buianov/DATA/Projects/gpcr-3D-annotation/"
+path_to_GPCRapa = "/home/ilya/work/Projects/gpcr-3D-annotation/"
 
 d = {'CYS': 'C', 'ASP': 'D', 'SER': 'S', 'GLN': 'Q', 'LYS': 'K',
      'ILE': 'I', 'PRO': 'P', 'THR': 'T', 'PHE': 'F', 'ASN': 'N', 
