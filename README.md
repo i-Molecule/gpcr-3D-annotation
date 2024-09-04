@@ -16,7 +16,7 @@ GPCRapa was tested on Ubuntu 20.04.5 LTS, AMDÂ® Ryzen 7 3800x 8-core processor Ã
 
 ## Usage
 
-To look at usage example of GPCRapa see Tutorial.ipynb in /Notebooks/
+To look at usage example of GPCRapa see Tutorial.ipynb in /Source/
 
 ## Training
 
@@ -79,6 +79,25 @@ options:
                         path to save features
 ```
 
+
+
+## Inference
+
+To predict the active/inactive probability (locally), use the single_pdb_inference.py script.
+
+Create the conda environment (remember to change the prefix directory in gpcr_3d_conf.yml). 
+```
+conda env create -f gpcr_3d_conf.yml
+```
+
+After this, activate the env and run the single_pdb_inference.py script.
+```
+# command call using the given example input
+python ./single_pdb_inference.py -i ./Files/examples/Single_pdbs/2YDV_frame_22_act.pdb -o ./example_output
+
+# optional, in case of a maffts permission error. Export the TMPDIR to some directory where you have write access.
+export TMPDIR=/some/dir/with/writing/rights
+```
 
 
 ## Contributing
