@@ -1,3 +1,5 @@
+[![License: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/License-PolyForm--Noncommercial--1.0.0-orange.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0)
+
 # gpcr-3D-annotation
 GPCRapa is a random forest model capable of annotation of GPCR conformations as active or inactive.
 
@@ -104,3 +106,11 @@ export TMPDIR=/some/dir/with/writing/rights
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+---
+
+## 📄 License
+
+This project is available under the PolyForm Noncommercial license. 
+
+For commercial use, collaboration, or to request an alternative license, please contact [Petr Popov](mailto:popov.petrus@gmail.com).
